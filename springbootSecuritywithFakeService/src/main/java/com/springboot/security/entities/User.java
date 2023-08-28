@@ -3,7 +3,7 @@ package com.springboot.security.entities;
 
 public class User {
 
-	String username;
+	String username ;
 	String password;
 	String email;
 	public String getUsername() {
