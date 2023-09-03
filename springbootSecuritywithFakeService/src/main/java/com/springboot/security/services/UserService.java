@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.springboot.security.entities.User;
 
 @Service
-public class UserService {
+public class UserService{
 
 	List<User>list=new ArrayList<>();
 	
