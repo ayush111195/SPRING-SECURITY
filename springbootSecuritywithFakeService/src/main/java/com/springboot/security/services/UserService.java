@@ -10,7 +10,7 @@ import com.springboot.security.entities.User;
 @Service
 public class UserService {
 
-	List<User>list=new ArrayList<>();
+	List<User>list=new ArrayList<>( );
 	
 	public UserService( ) {
 		list.add(new User("abc", "abc", "abc@gmail.com"));
