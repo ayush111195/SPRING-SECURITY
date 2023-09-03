@@ -12,7 +12,7 @@ public class UserService {
 
 	List<User>list=new ArrayList<>();
 	
-	public UserService() {
+	public UserService( ) {
 		list.add(new User("abc", "abc", "abc@gmail.com"));
 		list.add(new User("bbc", "bbc", "abc@gmail.com"));
 		list.add(new User("cbc", "cbc", "abc@gmail.com"));
